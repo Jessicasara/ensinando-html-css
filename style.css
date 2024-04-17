@@ -19,12 +19,17 @@ strong {
 }ç
 
 p {
-    text-align: center;
     color: #1f1d1d;
 }
 
 .sobre-mim {
     color: #f5efef;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .foto-luffy{
     border: 2px solid #020211;
@@ -32,5 +37,4 @@ p {
     border-radius: 20px;
     padding: 10px;
     border-radius: 20%;
-
 }
