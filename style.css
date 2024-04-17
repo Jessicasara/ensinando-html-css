@@ -1,18 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
 body {
-    background-color: rgb(55, 53, 131);
+    height: 100vh;
+    background-color: rgb(247, 131, 214);
     color: aliceblue;
 }
 
 strong {
-    color: #4C49DA;
+    color: #0f5238;
     font-weight: bold;
 }
 
 p {
+    text-align: center;
     color: red;
-}
+}s
 
 .sobre-mim {
-    color: rgb(185, 219, 34);
+    color: black;
 }
-
+.foto-luffy{
+    border: 2px solid #0b07ee;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
