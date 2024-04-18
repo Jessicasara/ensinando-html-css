@@ -1,40 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family:"Italianno", cursive; ;
 }
 h1{
     text-align: center;
+    font-size: 80px;
 }
 body {
     height: 100vh;
-    background-color: rgb(247, 131, 214);
+    background-image: url(fundo.png);
     color: #070f16;
     box-sizing: border-box;
     text-align: center;
 }
 
 strong {
-    color: rgb(214, 36, 36);
+    color: rgb(110, 15, 15);
     font-weight: bold;
-}ç
-
-p {
-    color: #1f1d1d;
+}
+p{
+    color: #0a0707;
+    font-size: 40px;
 }
 
-.sobre-mim {
+.apresentacao_conteudo{
+    font-size: 24px;
     color: #f5efef;
-}
-.principal{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .foto-luffy{
-    border: 2px solid #020211;
+    border: outset #020211 2px;
     height: 300px;
     border-radius: 20px;
-    padding: 10px;
-    border-radius: 20%;
+}
+.apresentacao{
+    margin: 10%;
+}
+.botao{
+   text-align: center;
+   border-radius: 20px;
+   font-size: 25px;
+   width: 150px;
+   background-image: url(fundo.png);
+   font-weight: 800;
 }
