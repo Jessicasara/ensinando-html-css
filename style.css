@@ -6,29 +6,41 @@
     font-family:"Italianno", cursive; ;
 }
 h1{
-    text-align: center;
-    font-size: 80px;
+    text-align: end;
+    font-size: 50px;
+    flex-direction: column-reverse ;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 body {
-    height: 100vh;
     background-image: url(fundo.png);
     color: #070f16;
     box-sizing: border-box;
-    text-align: center;
+    
+}
+.cabecalho{
+    padding: 2% 0 0 15%;
+    font-weight: 900;
+    
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho_menu_link{
+    font-size: 24px;
+    font-weight:  600px; 
+    color: #020211;
 }
 
 strong {
     color: rgb(110, 15, 15);
     font-weight: bold;
 }
-p{
-    color: #0a0707;
-    font-size: 40px;
-}
 
 .apresentacao_conteudo{
     font-size: 24px;
-    color: #f5efef;
+    color: #0c0101;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,17 +48,51 @@ p{
 }
 .foto-luffy{
     border: outset #020211 2px;
-    height: 300px;
+    height: 350px;
     border-radius: 20px;
 }
 .apresentacao{
     margin: 10%;
 }
+
+.apresentacao_links{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .botao{
    text-align: center;
    border-radius: 20px;
    font-size: 25px;
-   width: 150px;
+   width: 250px;
    background-image: url(fundo.png);
    font-weight: 800;
+   text-decoration: none;
+   padding: 15px 0;
 }
+h2{
+    font-family:"Italianno", cursive; ;
+    color: #020211;
+    width: 200px;
+} 
+
+.link_imagem{
+    width: 32px;
+}
+.rodape{
+    background-image: url(fundo.png);
+    text-align: center;
+    padding: 24px;
+    color: #020211;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.apresentacao_foto_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+ 
