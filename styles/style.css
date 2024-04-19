@@ -13,7 +13,7 @@ h1{
     align-items: flex-start;
 }
 body {
-    background-image: url(fundo.png);
+    background-image: url(/assets/fundo.png);
     color: #070f16;
     box-sizing: border-box;
     
@@ -21,6 +21,7 @@ body {
 .cabecalho{
     padding: 2% 0 0 15%;
     font-weight: 900;
+    
     
 }
 .cabecalho_menu{
@@ -66,10 +67,10 @@ strong {
    border-radius: 20px;
    font-size: 25px;
    width: 250px;
-   background-image: url(fundo.png);
+   background-image: url(/assets/fundo.png);
    font-weight: 800;
    text-decoration: none;
-   padding: 15px 0;
+   padding: 10px 0;
 }
 h2{
     font-family:"Italianno", cursive; ;
@@ -81,7 +82,7 @@ h2{
     width: 32px;
 }
 .rodape{
-    background-image: url(fundo.png);
+    background-color:lightcoral;
     text-align: center;
     padding: 24px;
     color: #020211;
@@ -95,4 +96,3 @@ h2{
     justify-content: space-between;
     margin-top: 25px;
 }
- 
