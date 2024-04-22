@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --cor-primaria:lightcoral;
+    --cor-secundaria:rgb(110, 15, 15);
+    --cor-terciaria: #020211;
+
+    --font-primaria:"Abril Fatface", serif;
+    --font-secundaria:"Pacifico", cursive;
+}
 
 *{
     margin: 0;
     padding: 0;
-    font-family:"Italianno", cursive; ;
+    font-family:var(--font-secundaria) ;
 }
 h1{
     text-align: end;
@@ -11,10 +22,12 @@ h1{
     flex-direction: column-reverse ;
     align-content: flex-start;
     align-items: flex-start;
+    font-family:var(--font-primaria) ;
 }
 body {
     background-image: url(/assets/fundo.png);
-    color: #070f16;
+    background-size: 100%;
+    color: var(--cor-terciaria);
     box-sizing: border-box;
     
 }
@@ -31,61 +44,70 @@ body {
 .cabecalho_menu_link{
     font-size: 24px;
     font-weight:  600px; 
-    color: #020211;
+    color:var(--cor-terciaria);
 }
 
 strong {
-    color: rgb(110, 15, 15);
+    color:var(--cor-secundaria);
     font-weight: bold;
 }
 
 .apresentacao_conteudo{
-    font-size: 24px;
-    color: #0c0101;
+    font-size: 3vh;
+    color: var(--cor-terciaria);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0 0 50px 0 ;
 }
+p{
+    margin: 50px 0 50px 0 ;
+}
+
 .foto-luffy{
-    border: outset #020211 2px;
-    height: 350px;
+    border: outset 2px var(--cor-terciaria);
+    height:500px;
     border-radius: 20px;
+    width: 30%;
 }
 .apresentacao{
     margin: 10%;
+    gap:20px;
+}
+a:hover{
+    border:solid 2px var(--cor-terciaria);
 }
 
 .apresentacao_links{
-    gap: 15px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .botao{
-   text-align: center;
+   text-align:center;
    border-radius: 20px;
-   font-size: 25px;
+   font-size: 30px;
    width: 250px;
    background-image: url(/assets/fundo.png);
-   font-weight: 800;
+   font-weight: 800px;
    text-decoration: none;
    padding: 10px 0;
 }
 h2{
-    font-family:"Italianno", cursive; ;
-    color: #020211;
+    font-family:var(--font-primaria);
+    color:var(--cor-terciaria);
     width: 200px;
 } 
-
 .link_imagem{
     width: 32px;
 }
 .rodape{
-    background-color:lightcoral;
+    background-color:var(--cor-primaria);
     text-align: center;
     padding: 24px;
-    color: #020211;
+    color: var(--cor-terciaria);
     font-size: 24px;
     font-weight: bold;
 
@@ -93,6 +115,6 @@ h2{
 .apresentacao_foto_link{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 25px;
 }
