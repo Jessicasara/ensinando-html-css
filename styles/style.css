@@ -61,10 +61,6 @@ strong {
     flex-direction: column;
     margin: 0 0 50px 0 ;
 }
-p{
-    margin: 50px 0 50px 0 ;
-}
-
 .foto-luffy{
     border: outset 2px var(--cor-terciaria);
     height:500px;
@@ -117,4 +113,48 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 25px;
+}
+@media (max-width:1200px ){
+    .apresentacao{
+        flex-direction: row;   
+    }
+    .apresentacao_conteudo{
+        width: 80%;
+    }
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
+}
+@media (max-width:720px){
+    .foto-luffy{
+        width: 300px;
+    }
+    .apresentacao_conteudo{
+        width: 90%;
+    }
+    .apresentacao_foto_link{
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+    }
+    .rodape{
+        height: 2vh;
+    }
+    .botao{
+        width: 30vh;
+    }
+    .apresentacao_links{
+        align-items: center;
+    }
+    h1{
+        font-size: 6vh;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
 }
